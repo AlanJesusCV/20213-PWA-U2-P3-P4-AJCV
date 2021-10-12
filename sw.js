@@ -25,9 +25,9 @@ self.addEventListener("install",(event) =>{
         return cache.addAll([
             '/',
             "index.html",
-            "20213-PWA-U2-P3-P4-AJCV/css/page.css",
-            "20213-PWA-U2-P3-P4-AJCV/image/inicio.jpg",
-            "20213-PWA-U2-P3-P4-AJCV/js/app.js"
+            "/css/page.css",
+            "/image/inicio.jpg",
+            "/js/app.js"
         ]);
     });
 
